@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML SERVER</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #4CAF50;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin: 10px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        img {
+            display: block;
+            margin: 20px auto;
+            border-radius: 10px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin: 20px;
+            text-align: center;
+        }
+
+        em {
+            color: #555;
+        }
+
+        strong {
+            color: #333;
+        }
+
+        ol {
+            font-size: 18px;
+            margin-left: 40px;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        label {
+            font-size: 18px;
+            margin-right: 10px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            font-size: 16px;
+            width: 250px;
+            margin: 10px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        input[type="radio"] {
+            margin: 0 10px;
+        }
+
+        button[type="Submit"] {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button[type="Submit"]:hover {
+            background-color: #45a049;
+        }
+
+        .contact-section {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 40px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <h1>WELCOME TO MY PORTFOLIO</h1>
+    <div style="text-align: center;">
+        <a href=""><button>About</button></a>
+        <a href=""><button>Skills</button></a>
+        <a href=""><button>Project</button></a>
+        <a href=""><button>Contact</button></a>
+    </div>
+
+    <h1>PALLA VENNELA</h1>
+    <img src="img5.jpg" width="200" height="300" alt="Palla Vennela Image">
+    <p>I am a web development beginner.</p>
+    <p>I am currently pursuing my B.TECH in <em>Vasireddy Venkata Krishna Institute of Technology</em>, Nambur.</p>
+    <p>I have started learning Web Development from <br> Code with Swaroop.</p>
+    <p>You can <strong>CLICK HERE</strong> to check out what I have learned in HTML, CSS, and JS.</p>
+
+    <h1>MY SKILLS</h1>
+    <ol>
+        <li>Python Basics</li>
+        <li>HTML Basics</li>
+        <li>Core JAVA</li>
+        <li>DBMS</li>
+    </ol>
+
+    <h1>Contact Me</h1>
+    <p>Feel free to get in touch with me using the following form:</p>
+    <div class="contact-section">
+        <form>
+            <label for="Name">Name:</label>
+            <input type="text" id="Name" name="Name" placeholder="Enter your Name"><br>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" name="Email" placeholder="Enter your Email"><br><br>
+            <b>Choose your gender:</b><br>
+            <input type="radio" id="male" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" value="Female">
+            <label for="female">Female</label><br><br>
+            <button type="Submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
